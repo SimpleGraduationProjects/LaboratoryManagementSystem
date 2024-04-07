@@ -9,7 +9,7 @@ server:
 spring:
     datasource:
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/graduation_springbootdtjr3?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        url: jdbc:mysql://127.0.0.1:3306/graduation_155_springbootdtjr3?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
         username: root
         password: 123456
     servlet:
@@ -43,4 +43,4 @@ mybatis-plus:
     cache-enabled: false
     call-setters-on-nulls: true
     #springboot 椤圭洰mybatis plus 璁剧疆 jdbcTypeForNull (oracle鏁版嵁搴撻渶閰嶇疆JdbcType.NULL, 榛樿鏄疧ther)
-    jdbc-type-for-null: 'null' 
+    jdbc-type-for-null: 'null'
